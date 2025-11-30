@@ -1,0 +1,2 @@
+# White Space
+### White space is the collective term used for several characters: the space character, the tab character, the newline character, the vertical tab character, and the form-feed character.
