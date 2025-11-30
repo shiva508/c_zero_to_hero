@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
 	
 	char names[10];
 	int index;
@@ -7,5 +7,5 @@ main(){
 		names[index] = 'a';
 		printf("\n%s =", names);
 	} 
-	
+	return 0;
 }

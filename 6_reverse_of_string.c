@@ -1,5 +1,5 @@
 #include <stdio.h>
-main(){
+int main(){
 	char name[12] = "Shiva Dasari";
 	
 	int total_length = sizeof(name);
@@ -15,4 +15,5 @@ main(){
 		}
 	}
 	printf("\nReversed Name=%s", name);
+	return 0;
 }

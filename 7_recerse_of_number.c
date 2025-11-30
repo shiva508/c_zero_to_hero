@@ -1,5 +1,5 @@
 #include<stdio.h>
-main(){
+int main(){
 	
 	int roll_number = 248;
 	int reverse_number=0;
@@ -11,4 +11,5 @@ main(){
 		roll_number = quotent;
 	}
 	printf("\nReversed roll_number = %d",reverse_number);
+	return 0;
 }

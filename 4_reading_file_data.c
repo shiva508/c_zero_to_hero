@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-main(){
+int main(){
 	
 	char file_content[10000];
 	FILE *hand;
@@ -9,5 +9,5 @@ main(){
 	while(fgets(file_content,10000,hand) != NULL){
 		printf("%s",file_content);
 	}
-	
+	return 0;
 }
